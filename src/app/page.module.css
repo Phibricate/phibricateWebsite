@@ -1,0 +1,172 @@
+.home{
+  width: 100%;
+  position: relative;
+  z-index: -2;
+  padding: auto;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.herosec{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: -40%;
+align-self: center;
+z-index: 2;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+
+}
+.backdiv{
+  background-color: #3C9987;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: -38%;
+align-self: center;
+}
+.herocont{
+  width: 90%;
+  max-width: 700px;
+  color: #ffffff;
+  text-align: center;
+}
+.herocont h1{
+font-size: 50px;
+}
+.herocont p{
+font-size: 20px;
+}
+.heroimgdiv{
+  width: 30%;
+  max-width: 600px;
+
+}
+.heroimg{
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.phibsec2{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items:flex-start;
+  margin-bottom: 200px;
+}
+.clientlogosdiv{
+  display: grid;
+  grid-template-columns: auto auto
+}
+.clientlogos{
+  width: 50%;
+}
+.clientimg{
+  width: 100%;
+  height: fit-content;
+}
+.headOurClients h2{
+font-size: 90px;
+white-space:nowrap;
+color: #bfbfbf;
+}
+
+.phibsec3{
+
+  background: linear-gradient(180deg, #000 0%, #40514E 100%);
+}
+.sec3insidediv{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 85%;
+  padding: 90px 0px;
+  margin: auto;
+
+}
+.phibsec3 h2{
+ font-size: 90px;
+ color: #ffffff;
+}
+.phibsec3 p{
+width: 100%;
+max-width: 1250px;
+
+ color: #A0A0A0;
+}
+
+
+.phibsec4{
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.sec4heading{
+  font-size: 90px;
+  white-space:nowrap;
+  color: #bfbfbf;
+ margin-bottom: 50px;
+}
+
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.skill2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.skillno{
+  font-size: 48px;
+  font-weight: 700;
+  color: #2B6C66;
+}
+.skillname{
+color: #3C9986;
+font-size: 80px;
+font-weight: 700;
+
+}
+.skillsubname{
+  color: #A6A6A6;
+font-size: 26px;
+font-weight: 400;
+}
+
+.skillImgnExplain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.skillimg{
+  margin-top: 80px;
+}
+
+.phibsec5{
+  margin-top: 200px;
+  width: 88%;
+}
+
+.sec5heading{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
